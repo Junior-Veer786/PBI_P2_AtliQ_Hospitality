@@ -1,97 +1,113 @@
-# PBI_P2_AtliQ_Hospitality
 
-# AtliQ Hospitality Power BI Project
+# 🏨 AtliQ Hospitality Dashboard | Power BI Project
 
-## Project Overview
+![Power BI](https://img.shields.io/badge/Built%20with-Power%20BI-yellow?logo=powerbi)
+![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-Apr%2025-blue)
+![Data Source](https://img.shields.io/badge/Data%20Source-AtliQ%20Hospitality%20Operational%20Data-blue)
 
-**Project Title**: AtliQ Hospitality
-**Level**: Advance  
-**Tool Used**: Power BI  
-**Dataset**: AtliQ Hospitality
+---
 
-This project demonstrates data visualization and business intelligence skills using Power BI. It showcases how to analyze hotel performance KPIs like Revenue, RevPAR, ADR, Occupancy %, Realisation %, and Cancellation %, providing management with actionable insights through interactive dashboards. This project is ideal for beginners and intermediate users aiming to strengthen their data storytelling and dashboard development skills.
+## 📈 Project Overview
 
-## Objectives
+**AtliQ Hospitality Dashboard** is a comprehensive Power BI solution built to deliver key operational insights across the hospitality business.  
+The dashboard empowers managers, analysts, and executives to make data-driven decisions by analyzing KPIs like Revenue, RevPAR, ADR, Occupancy %, Realisation %, and Cancellation %.
 
-1. **Build a dynamic Power BI dashboard**: Create visualizations for hotel key performance indicators (KPIs).
-2. **Explore Operational Metrics**: Understand trends and patterns in revenue, occupancy, ADR, and booking platforms.
-3. **Provide Business Insights**: Help the management make informed decisions based on visual analytics.
-4. **Develop Interactive Reports**: Implement filters by city, hotel category, week, and booking platform.
+🛠 **Skill Level**: Beginner to Intermediate  
+💻 **Platform**: Microsoft Power BI  
+📊 **Focus**: Hospitality Analytics, Revenue Management, Operational Excellence, Business Intelligence
 
-## Project Structure
+---
 
-### 1. Dataset Overview
+## 🎯 Key Objectives
 
-- The dataset includes:
-  - **Revenue**
-  - **RevPAR** (Revenue Per Available Room)
-  - **ADR** (Average Daily Rate)
-  - **Occupancy %**
-  - **Realisation %**
-  - **Cancellation %**
-  - **City-wise, Hotel-wise, and Platform-wise Data**
-  - **Weekly and Monthly Trends**
+- 🏨 **Monitor Hotel KPIs** such as Revenue, Occupancy %, ADR, and RevPAR
+- 📈 **Analyze Trends** across cities, hotels, booking platforms, and day types
+- 🧩 **City and Category Wise Breakdown** to identify top-performing regions
+- 🛎 **Cancellation and Realisation Analysis** for operational optimization
+- 📊 **Interactive Filtering** by City, Category, Booking Platform, and Time Periods
 
-- Timeframe covered: **May 2022 to July 2022**.
+---
 
-### 2. Dashboard Features
+## 🗂 Project Structure
 
-- **KPI Cards**: 
-  - Revenue
-  - RevPAR
-  - DSRN (Daily Sellable Room Nights)
+### 🔹 Main Views
 
-- **Filters/Slicers**:
-  - By **City**
-  - By **Hotel Category** (Luxury / Business)
-  - By **Week**
-  - By **Booking Platform**
+| View             | Description |
+|------------------|-------------|
+| **Hotel Performance View** | Revenue, RevPAR, ADR, Occupancy %, and Realisation % |
+| **Booking Platform Analysis** | Comparison of ADR and Realisation % across platforms |
+| **Trend Analysis**  | Weekly and Monthly trends for Revenue, Occupancy %, and ADR |
+| **Cancellation Summary** | Insights into cancellation rates and patterns |
+| **Executive Summary** | High-level KPIs and quick filters for decision-makers |
 
-- **Visualizations**:
-  - **Revenue vs RevPAR Comparison** by Category
-  - **Realisation % vs ADR** by Booking Platform
-  - **RevPAR, ADR, and Occupancy %** Trends (Weekly and Monthly Line Charts)
-  - **Hotel-wise Performance Tables** (Revenue, ADR, Occupancy, Realisation %)
-  - **Cancellation % Analysis**
+### 📊 Key Metrics and KPIs
 
-- **Day Type Analysis**:
-  - Weekend vs Weekday Occupancy and ADR.
+- Total Revenue
+- Average Daily Rate (ADR)
+- Revenue Per Available Room (RevPAR)
+- Occupancy Percentage (%)
+- Realisation Percentage (%)
+- Cancellation Percentage (%)
 
-### 3. Key Business Questions Answered
+---
 
-- Which city and hotel generated the most revenue?
-- How does performance differ between luxury and business hotels?
-- Which booking platforms deliver higher realization rates?
-- How do RevPAR, ADR, and Occupancy % vary over months and weeks?
-- What is the trend of cancellations across different properties?
+## 🔄 Data Refresh Cycle
 
-## Findings
+- 📅 **Data Valid Until**: July 2022
+- 🔁 **System Data Refresh**: Manual (based on PDF or database uploads)
+- ✍️ **Manual Update**: Category Assignments, Platform Bookings if dataset extends
 
-- **Higher Occupancy on Weekends**: Weekend stays show significantly better occupancy rates compared to weekdays.
-- **Consistent ADR**: ADR remains relatively stable across months and booking platforms.
-- **Realisation Rates**: Realisation percentages are stable around 70%, suggesting efficient revenue collection strategies.
-- **Cancellation Challenges**: An average cancellation rate of 25% highlights opportunities to improve booking policies.
-- **Platform Performance**: Certain booking platforms yield higher realization compared to others.
+---
 
-## Reports
+## 🔍 Business Insights
 
-- **Hotel Performance Dashboard**: Track performance KPIs city-wise, hotel-wise, and category-wise.
-- **Booking Platform Analysis**: Understand impact of different booking channels on hotel revenue and realization.
-- **Revenue & Occupancy Trend Reports**: Analyze seasonality and time-based performance.
-- **Cancellation Summary Report**: Identify trends and high-risk areas for cancellations.
+- 📈 **57.8%** Overall Occupancy across all hotels
+- 🏨 **Luxury Segment** generated **62%** of total revenue
+- 📉 **Average Realisation Rate** of **70%** across all properties
+- 🚀 **Weekend stays** show higher RevPAR and Occupancy than weekdays
+- 🛒 **Direct Booking Channels** maintain competitive ADR values
+- 📉 **Cancellation Rate** of approximately **25%** signals operational risks
 
-## Conclusion
+---
 
-This project provides a complete real-world example of how Power BI can be used to analyze hospitality operations and drive business decisions. By connecting operational KPIs to visual stories, the AtliQ Hospitality dashboard empowers leadership teams to optimize pricing strategies, enhance marketing efforts, and improve hotel occupancy rates.
+## 📑 Reports and Visuals
 
-## How to Use
+- Revenue Distribution by City and Hotel Category
+- RevPAR, ADR, and Occupancy Trend Lines (Monthly and Weekly)
+- Booking Platform Comparison: ADR vs Realisation %
+- Detailed Hotel Performance Matrix
+- Cancellation Rate Dashboards
+- Executive Summary KPIs for quick insights
 
-1. **Open Power BI Desktop**: Import the provided dataset or connect to the database.
-2. **Review the Data Model**: Ensure all relationships and measures are properly set up.
-3. **Explore the Dashboard**: Interact with slicers and filters to analyze different aspects of hotel performance.
-4. **Customize Visuals**: Adjust or extend visuals based on additional business questions.
-5. **Publish to Power BI Service**: Share the dashboard with stakeholders.
+---
 
-## Author - Junior Veer
+## 🧠 Key Takeaways
 
-Thank you, World!
+- Created an **interactive and dynamic** Power BI dashboard for hospitality business users
+- **Simplified complex operational KPIs** into easy-to-understand visualizations
+- Helped **identify opportunities** in booking platforms, hotel categories, and cities
+- Enabled better **strategic decisions** through weekly and monthly trend monitoring
+- Built strong **hospitality industry knowledge** applied via Power BI
+
+---
+
+## 🧑‍💻 About Me
+
+I'm passionate about transforming operational data into powerful, actionable business insights!  
+If you're looking for someone who combines data skills, creativity, and domain expertise — **let's connect!**
+
+## 🌐 Let's Connect!
+
+<p align="left">
+  <a href="https://linkedin.com/in/muhammadtanweer786/" target="blank">
+    <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+  </a>
+  <a href="mailto:info.veer.786@gmail.com" target="blank">
+    <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</p>
+
+---
+
+⭐ *Thank you for exploring AtliQ Hospitality Dashboard!* ⭐
