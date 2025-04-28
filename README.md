@@ -13,7 +13,7 @@
 **AtliQ Hospitality Dashboard** is a comprehensive Power BI solution built to deliver key operational insights across the hospitality business.  
 The dashboard empowers managers, analysts, and executives to make data-driven decisions by analyzing KPIs like Revenue, RevPAR, ADR, Occupancy %, Realisation %, and Cancellation %.
 
-🛠 **Skill Level**: Beginner to Intermediate  
+🛠 **Skill Level**: Advance
 💻 **Platform**: Microsoft Power BI  
 📊 **Focus**: Hospitality Analytics, Revenue Management, Operational Excellence, Business Intelligence
 
